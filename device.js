@@ -92,6 +92,9 @@ deviceTypes.pioneer={
                                 case 17:
                                     callback({state:'iPod'});
                                     break;
+                                case 10:
+                                    callback({state:'Video'});
+                                    break;
                                 default:
                                     callback(null);
                                     break;
@@ -105,6 +108,7 @@ deviceTypes.pioneer={
                        'Sat/Cbl':'/api/pioneer/06FN?device='+device.name,
                        'Dvr/Bdr':'/api/pioneer/15FN?device='+device.name,
                        'iPod':'/api/pioneer/17FN?device='+device.name,
+                       'Video':'/api/pioneer/10FN?device='+device.name,
                     },
                 }
                 ],
