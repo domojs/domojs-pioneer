@@ -136,6 +136,7 @@ deviceTypes.pioneer={
                'Sat/Cbl':'/api/pioneer/06FN?device='+device.name,
                'Dvr/Bdr':'/api/pioneer/15FN?device='+device.name,
                'iPod':'/api/pioneer/17FN?device='+device.name,
+               'BD':'/api/pioneer/25FN?device='+device.name,
                'Volume Down':'/api/pioneer/VD?device='+device.name,
                'Volume Up':'/api/pioneer/VU?device='+device.name,
                'Mute On':'/api/pioneer/MO?device='+device.name,
