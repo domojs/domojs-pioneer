@@ -11,11 +11,13 @@ deviceTypes.pioneer={
     onServerSave:function(device, body){
         var send=$('./modules/pioneer/controllers/api/home.js').get;
         var ptType={
+            statusMethod:'pull',
             subdevices:[
                 {
                     name:"power",
                     type:'switch',
                     category:'actuator',
+                    statusMethod:'pull',
                     status:function(callback)
                     {
                         var status={};
@@ -36,6 +38,7 @@ deviceTypes.pioneer={
                     name:"mute",
                     type:'switch',
                     category:'actuator',
+                    statusMethod:'pull',
                     status:function(callback)
                     {
                         console.log('mute status');
@@ -54,6 +57,7 @@ deviceTypes.pioneer={
                     name:"volume",
                     type:'analogic',
                     category:'actuator',
+                    statusMethod:'pull',
                     status:function(callback)
                     {
                         var status={};
@@ -71,6 +75,7 @@ deviceTypes.pioneer={
                 {
                     name:"input",
                     type:'values',
+                    statusMethod:'pull',
                     status:function(callback)
                     {
                         send('?FN', device.name, function(result){
@@ -79,6 +84,9 @@ deviceTypes.pioneer={
                             {
                                 case 49:
                                     callback({state:'Game'});
+                                    break;
+                                case 25:
+                                    callback({state:'BD'});
                                     break;
                                 case 4:
                                     callback({state:'Dvd'});
@@ -109,6 +117,7 @@ deviceTypes.pioneer={
                        'Dvr/Bdr':'/api/pioneer/15FN?device='+device.name,
                        'iPod':'/api/pioneer/17FN?device='+device.name,
                        'Video':'/api/pioneer/10FN?device='+device.name,
+                       'BD':'/api/pioneer/25FN?device='+device.name,
                     },
                 }
                 ],
