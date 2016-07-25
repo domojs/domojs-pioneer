@@ -1,4 +1,4 @@
-deviceTypes.pioneer={
+deviceTypes['pioneer']={
     name:'pioneer',
     onChange:function(){
         
