@@ -1,0 +1,30 @@
+{
+  "author": {
+    "name": "npenin"
+  },
+  "bugs": {
+    "url": "https://github.com/domojs/domojs-pioneer/issues"
+  },
+  "dependencies": {
+    "@akala/core": "^1.0.38",
+    "@akala/server": "^1.0.74",
+    "@domojs/devices": "^1.0.74"
+  },
+  "deprecated": false,
+  "description": "",
+  "homepage": "https://github.com/domojs/domojs-pioneer#readme",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "name": "@domojs/pioneer",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/domojs/domojs-pioneer.git"
+  },
+  "runDependencies": [],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "tsc -p src"
+  },
+  "typings": "dist/server/index.d.ts",
+  "version": "1.0.14"
+}
