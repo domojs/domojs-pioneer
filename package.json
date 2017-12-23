@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "author": {
     "name": "npenin"
   },
@@ -27,13 +26,5 @@
     "prepublishOnly": "tsc -p src"
   },
   "typings": "dist/server/index.d.ts",
-  "version": "1.0.14"
-=======
-	"name":"domojs-pioneer",
-	"version":"0.1.0",
-	"repository":{
-		"type":"git",
-		"url":"https://github.com/npenin/domojs-pioneer.git"
-	}
->>>>>>> c6ce5cae9528c6bea958b25f73a32f05be8e37d6
+  "version": "1.0.15"
 }
