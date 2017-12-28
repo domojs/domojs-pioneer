@@ -1,0 +1,176 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.10.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - '@domojs/devices > @domojs/chat > @domojs/theme-default > @akala-modules/core > @akala/server > server-static > socket.io > engine.io > debug':
+        patched: '2017-12-28T11:11:18.646Z'
+    - '@akala/server > server-static > socket.io > debug':
+        patched: '2017-12-28T11:11:18.646Z'
+    - '@akala/server > server-static > socket.io > socket.io-client > debug':
+        patched: '2017-12-28T11:11:18.646Z'
+    - '@akala/server > server-static > socket.io > socket.io-client > engine.io-client > debug':
+        patched: '2017-12-28T11:11:18.646Z'
+    - '@domojs/devices > @akala/server > server-static > socket.io > debug':
+        patched: '2017-12-28T11:11:18.646Z'
+    - '@domojs/devices > @akala/server > server-static > socket.io > engine.io > debug':
+        patched: '2017-12-28T11:11:18.646Z'
+    - '@domojs/devices > @akala/server > server-static > socket.io > socket.io-adapter > debug':
+        patched: '2017-12-28T11:11:18.646Z'
+    - '@domojs/devices > @akala/server > server-static > socket.io > socket.io-client > debug':
+        patched: '2017-12-28T11:11:18.646Z'
+    - '@domojs/devices > @akala/server > server-static > socket.io > socket.io-client > engine.io-client > debug':
+        patched: '2017-12-28T11:11:18.646Z'
+    - '@domojs/devices > @domojs/chat > @akala/server > server-static > socket.io > debug':
+        patched: '2017-12-28T11:11:18.646Z'
+    - '@domojs/devices > @domojs/chat > @akala/server > server-static > socket.io > engine.io > debug':
+        patched: '2017-12-28T11:11:18.646Z'
+    - '@domojs/devices > @domojs/chat > @akala/server > server-static > socket.io > socket.io-adapter > debug':
+        patched: '2017-12-28T11:11:18.646Z'
+    - '@domojs/devices > @domojs/chat > @akala/server > server-static > socket.io > socket.io-client > debug':
+        patched: '2017-12-28T11:11:18.646Z'
+    - '@domojs/devices > @domojs/chat > @akala/server > server-static > socket.io > socket.io-client > engine.io-client > debug':
+        patched: '2017-12-28T11:11:18.646Z'
+    - '@domojs/devices > @domojs/chat > @domojs/theme-default > @akala/server > server-static > socket.io > debug':
+        patched: '2017-12-28T11:11:18.646Z'
+    - '@domojs/devices > @domojs/chat > @domojs/theme-default > @akala/server > server-static > socket.io > engine.io > debug':
+        patched: '2017-12-28T11:11:18.646Z'
+    - '@domojs/devices > @domojs/chat > @domojs/theme-default > @akala/server > server-static > socket.io > socket.io-adapter > debug':
+        patched: '2017-12-28T11:11:18.646Z'
+    - '@domojs/devices > @domojs/chat > @domojs/theme-default > @akala/server > server-static > socket.io > socket.io-client > debug':
+        patched: '2017-12-28T11:11:18.646Z'
+    - '@domojs/devices > @domojs/chat > @domojs/theme-default > @akala/server > server-static > socket.io > socket.io-client > engine.io-client > debug':
+        patched: '2017-12-28T11:11:18.646Z'
+    - '@domojs/devices > @domojs/chat > @domojs/theme-default > @akala-modules/core > @akala/server > server-static > socket.io > debug':
+        patched: '2017-12-28T11:11:18.646Z'
+    - '@akala/server > server-static > socket.io > socket.io-adapter > debug':
+        patched: '2017-12-28T11:11:18.646Z'
+    - '@domojs/devices > @domojs/chat > @domojs/theme-default > @akala-modules/core > @akala/server > server-static > socket.io > socket.io-adapter > debug':
+        patched: '2017-12-28T11:11:18.646Z'
+    - '@domojs/devices > @domojs/chat > @domojs/theme-default > @akala-modules/core > @akala/server > server-static > socket.io > socket.io-client > debug':
+        patched: '2017-12-28T11:11:18.646Z'
+    - '@domojs/devices > @domojs/chat > @domojs/theme-default > @akala-modules/core > @akala/server > server-static > socket.io > socket.io-client > engine.io-client > debug':
+        patched: '2017-12-28T11:11:18.646Z'
+    - '@akala/server > server-static > socket.io > socket.io-parser > debug':
+        patched: '2017-12-28T11:11:18.646Z'
+    - '@akala/server > server-static > socket.io > socket.io-adapter > socket.io-parser > debug':
+        patched: '2017-12-28T11:11:18.646Z'
+    - '@akala/server > server-static > socket.io > socket.io-client > socket.io-parser > debug':
+        patched: '2017-12-28T11:11:18.646Z'
+    - '@domojs/devices > @akala/server > server-static > socket.io > socket.io-parser > debug':
+        patched: '2017-12-28T11:11:18.646Z'
+    - '@domojs/devices > @akala/server > server-static > socket.io > socket.io-adapter > socket.io-parser > debug':
+        patched: '2017-12-28T11:11:18.646Z'
+    - '@domojs/devices > @akala/server > server-static > socket.io > socket.io-client > socket.io-parser > debug':
+        patched: '2017-12-28T11:11:18.646Z'
+    - '@domojs/devices > @domojs/chat > @akala/server > server-static > socket.io > socket.io-parser > debug':
+        patched: '2017-12-28T11:11:18.646Z'
+    - '@domojs/devices > @domojs/chat > @akala/server > server-static > socket.io > socket.io-adapter > socket.io-parser > debug':
+        patched: '2017-12-28T11:11:18.646Z'
+    - '@domojs/devices > @domojs/chat > @akala/server > server-static > socket.io > socket.io-client > socket.io-parser > debug':
+        patched: '2017-12-28T11:11:18.646Z'
+    - '@domojs/devices > @domojs/chat > @domojs/theme-default > @akala/server > server-static > socket.io > socket.io-parser > debug':
+        patched: '2017-12-28T11:11:18.646Z'
+    - '@domojs/devices > @domojs/chat > @domojs/theme-default > @akala/server > server-static > socket.io > socket.io-adapter > socket.io-parser > debug':
+        patched: '2017-12-28T11:11:18.646Z'
+    - '@domojs/devices > @domojs/chat > @domojs/theme-default > @akala/server > server-static > socket.io > socket.io-client > socket.io-parser > debug':
+        patched: '2017-12-28T11:11:18.646Z'
+    - '@domojs/devices > @domojs/chat > @domojs/theme-default > @akala-modules/core > @akala/server > server-static > socket.io > socket.io-parser > debug':
+        patched: '2017-12-28T11:11:18.646Z'
+    - '@domojs/devices > @domojs/chat > @domojs/theme-default > @akala-modules/core > @akala/server > server-static > socket.io > socket.io-adapter > socket.io-parser > debug':
+        patched: '2017-12-28T11:11:18.646Z'
+    - '@domojs/devices > @domojs/chat > @domojs/theme-default > @akala-modules/core > @akala/server > server-static > socket.io > socket.io-client > socket.io-parser > debug':
+        patched: '2017-12-28T11:11:18.646Z'
+    - '@akala/server > server-static > socket.io > engine.io > debug':
+        patched: '2017-12-28T11:11:18.646Z'
+  'npm:minimatch:20160620':
+    - '@domojs/devices > @domojs/chat > @domojs/theme-default > gulp > vinyl-fs > glob-stream > minimatch':
+        patched: '2017-12-28T11:11:18.646Z'
+    - '@domojs/devices > @domojs/chat > @domojs/theme-default > gulp > vinyl-fs > glob-stream > glob > minimatch':
+        patched: '2017-12-28T11:11:18.646Z'
+    - '@domojs/devices > @domojs/chat > @domojs/theme-default > gulp > vinyl-fs > glob-watcher > gaze > globule > minimatch':
+        patched: '2017-12-28T11:11:18.646Z'
+    - '@domojs/devices > @domojs/chat > @domojs/theme-default > gulp > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch':
+        patched: '2017-12-28T11:11:18.646Z'
+  'npm:ms:20170412':
+    - '@domojs/devices > @domojs/chat > @domojs/theme-default > @akala-modules/core > @akala/server > server-static > socket.io > debug > ms':
+        patched: '2017-12-28T11:11:18.646Z'
+    - '@akala/server > server-static > socket.io > debug > ms':
+        patched: '2017-12-28T11:11:18.646Z'
+    - '@akala/server > server-static > socket.io > socket.io-adapter > debug > ms':
+        patched: '2017-12-28T11:11:18.646Z'
+    - '@akala/server > server-static > socket.io > socket.io-client > debug > ms':
+        patched: '2017-12-28T11:11:18.646Z'
+    - '@akala/server > server-static > socket.io > socket.io-client > engine.io-client > debug > ms':
+        patched: '2017-12-28T11:11:18.646Z'
+    - '@domojs/devices > @akala/server > server-static > socket.io > debug > ms':
+        patched: '2017-12-28T11:11:18.646Z'
+    - '@domojs/devices > @akala/server > server-static > socket.io > engine.io > debug > ms':
+        patched: '2017-12-28T11:11:18.646Z'
+    - '@domojs/devices > @akala/server > server-static > socket.io > socket.io-adapter > debug > ms':
+        patched: '2017-12-28T11:11:18.646Z'
+    - '@domojs/devices > @akala/server > server-static > socket.io > socket.io-client > debug > ms':
+        patched: '2017-12-28T11:11:18.646Z'
+    - '@domojs/devices > @akala/server > server-static > socket.io > socket.io-client > engine.io-client > debug > ms':
+        patched: '2017-12-28T11:11:18.646Z'
+    - '@domojs/devices > @domojs/chat > @akala/server > server-static > socket.io > debug > ms':
+        patched: '2017-12-28T11:11:18.646Z'
+    - '@domojs/devices > @domojs/chat > @akala/server > server-static > socket.io > engine.io > debug > ms':
+        patched: '2017-12-28T11:11:18.646Z'
+    - '@domojs/devices > @domojs/chat > @akala/server > server-static > socket.io > socket.io-adapter > debug > ms':
+        patched: '2017-12-28T11:11:18.646Z'
+    - '@domojs/devices > @domojs/chat > @akala/server > server-static > socket.io > socket.io-client > debug > ms':
+        patched: '2017-12-28T11:11:18.646Z'
+    - '@domojs/devices > @domojs/chat > @akala/server > server-static > socket.io > socket.io-client > engine.io-client > debug > ms':
+        patched: '2017-12-28T11:11:18.646Z'
+    - '@domojs/devices > @domojs/chat > @domojs/theme-default > @akala/server > server-static > socket.io > debug > ms':
+        patched: '2017-12-28T11:11:18.646Z'
+    - '@domojs/devices > @domojs/chat > @domojs/theme-default > @akala/server > server-static > socket.io > engine.io > debug > ms':
+        patched: '2017-12-28T11:11:18.646Z'
+    - '@domojs/devices > @domojs/chat > @domojs/theme-default > @akala/server > server-static > socket.io > socket.io-adapter > debug > ms':
+        patched: '2017-12-28T11:11:18.646Z'
+    - '@domojs/devices > @domojs/chat > @domojs/theme-default > @akala/server > server-static > socket.io > socket.io-client > debug > ms':
+        patched: '2017-12-28T11:11:18.646Z'
+    - '@domojs/devices > @domojs/chat > @domojs/theme-default > @akala/server > server-static > socket.io > socket.io-client > engine.io-client > debug > ms':
+        patched: '2017-12-28T11:11:18.646Z'
+    - '@akala/server > server-static > socket.io > engine.io > debug > ms':
+        patched: '2017-12-28T11:11:18.646Z'
+    - '@domojs/devices > @domojs/chat > @domojs/theme-default > @akala-modules/core > @akala/server > server-static > socket.io > engine.io > debug > ms':
+        patched: '2017-12-28T11:11:18.646Z'
+    - '@domojs/devices > @domojs/chat > @domojs/theme-default > @akala-modules/core > @akala/server > server-static > socket.io > socket.io-adapter > debug > ms':
+        patched: '2017-12-28T11:11:18.646Z'
+    - '@domojs/devices > @domojs/chat > @domojs/theme-default > @akala-modules/core > @akala/server > server-static > socket.io > socket.io-client > debug > ms':
+        patched: '2017-12-28T11:11:18.646Z'
+    - '@domojs/devices > @domojs/chat > @domojs/theme-default > @akala-modules/core > @akala/server > server-static > socket.io > socket.io-client > engine.io-client > debug > ms':
+        patched: '2017-12-28T11:11:18.646Z'
+    - '@akala/server > server-static > socket.io > socket.io-parser > debug > ms':
+        patched: '2017-12-28T11:11:18.646Z'
+    - '@akala/server > server-static > socket.io > socket.io-adapter > socket.io-parser > debug > ms':
+        patched: '2017-12-28T11:11:18.646Z'
+    - '@akala/server > server-static > socket.io > socket.io-client > socket.io-parser > debug > ms':
+        patched: '2017-12-28T11:11:18.646Z'
+    - '@domojs/devices > @akala/server > server-static > socket.io > socket.io-parser > debug > ms':
+        patched: '2017-12-28T11:11:18.646Z'
+    - '@domojs/devices > @akala/server > server-static > socket.io > socket.io-adapter > socket.io-parser > debug > ms':
+        patched: '2017-12-28T11:11:18.646Z'
+    - '@domojs/devices > @akala/server > server-static > socket.io > socket.io-client > socket.io-parser > debug > ms':
+        patched: '2017-12-28T11:11:18.646Z'
+    - '@domojs/devices > @domojs/chat > @akala/server > server-static > socket.io > socket.io-parser > debug > ms':
+        patched: '2017-12-28T11:11:18.646Z'
+    - '@domojs/devices > @domojs/chat > @akala/server > server-static > socket.io > socket.io-adapter > socket.io-parser > debug > ms':
+        patched: '2017-12-28T11:11:18.646Z'
+    - '@domojs/devices > @domojs/chat > @akala/server > server-static > socket.io > socket.io-client > socket.io-parser > debug > ms':
+        patched: '2017-12-28T11:11:18.646Z'
+    - '@domojs/devices > @domojs/chat > @domojs/theme-default > @akala/server > server-static > socket.io > socket.io-parser > debug > ms':
+        patched: '2017-12-28T11:11:18.646Z'
+    - '@domojs/devices > @domojs/chat > @domojs/theme-default > @akala/server > server-static > socket.io > socket.io-adapter > socket.io-parser > debug > ms':
+        patched: '2017-12-28T11:11:18.646Z'
+    - '@domojs/devices > @domojs/chat > @domojs/theme-default > @akala/server > server-static > socket.io > socket.io-client > socket.io-parser > debug > ms':
+        patched: '2017-12-28T11:11:18.646Z'
+    - '@domojs/devices > @domojs/chat > @domojs/theme-default > @akala-modules/core > @akala/server > server-static > socket.io > socket.io-parser > debug > ms':
+        patched: '2017-12-28T11:11:18.646Z'
+    - '@domojs/devices > @domojs/chat > @domojs/theme-default > @akala-modules/core > @akala/server > server-static > socket.io > socket.io-adapter > socket.io-parser > debug > ms':
+        patched: '2017-12-28T11:11:18.646Z'
+    - '@domojs/devices > @domojs/chat > @domojs/theme-default > @akala-modules/core > @akala/server > server-static > socket.io > socket.io-client > socket.io-parser > debug > ms':
+        patched: '2017-12-28T11:11:18.646Z'

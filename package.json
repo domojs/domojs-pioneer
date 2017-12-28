@@ -8,7 +8,8 @@
   "dependencies": {
     "@akala/core": "^1.0.42",
     "@akala/server": "^1.0.74",
-    "@domojs/devices": "^1.0.81"
+    "@domojs/devices": "^1.0.81",
+    "snyk": "^1.63.0"
   },
   "deprecated": false,
   "description": "",
@@ -23,8 +24,11 @@
   "runDependencies": [],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepublishOnly": "tsc -p src"
+    "prepublishOnly": "tsc -p src",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "typings": "dist/index.d.ts",
-  "version": "1.0.16"
+  "version": "1.0.16",
+  "snyk": true
 }
