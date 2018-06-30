@@ -19,7 +19,7 @@ akala.worker.createClient('devices').then(function (c)
             return deviceCollection[mainDevice];
         }
 
-        var client = devices.deviceType.createClient(c)({
+        var client = akala.api.jsonrpcws(devices.deviceType).createClient(c, {
             exec: function (p)
             {
                 var cmd = p.command;
@@ -82,16 +82,16 @@ akala.worker.createClient('devices').then(function (c)
                             break;
                     }
                 }
-                return api.send(cmd, mainDevice['address']);
+                return api.send(cmd, mainDevice['address']).then((result) => undefined);
             },
-            status: function (device)
+            getStatus: function (device)
             {
                 var mainDevice = getMainDevice(device.device);
 
                 if (mainDevice.name == device.device)
-                    return mainDevice.status();
+                    return Promise.resolve(mainDevice.status());
                 else
-                    return mainDevice.subdevices[device.device.substring(mainDevice.name.length + 1)].status();
+                    return Promise.resolve(mainDevice.subdevices[device.device.substring(mainDevice.name.length + 1)].status());
             },
             save: (p) =>
             {
