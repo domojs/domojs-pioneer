@@ -14,7 +14,7 @@
     "@akala/core": "^2.0.33",
     "@akala/server": "^2.0.28",
     "@domojs/devices": "^1.1.5",
-    "@types/ws": "^5.1.2"
+    "@types/ws": "^6.0.1"
   },
   "deprecated": false,
   "description": "",
