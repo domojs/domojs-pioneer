@@ -19,8 +19,8 @@
     showdown "^1.8.6"
 
 "@akala/core@^2.0.33", "@akala/core@^2.0.66":
-  version "2.0.66"
-  resolved "https://registry.yarnpkg.com/@akala/core/-/core-2.0.66.tgz#f3b3fa07de2ced7d40fd1a19f02d01885c1b25ad"
+  version "2.0.68"
+  resolved "https://registry.yarnpkg.com/@akala/core/-/core-2.0.68.tgz#40548a7410d84b19bd1714c0ca32a3170c3748b4"
   dependencies:
     "@akala/json-rpc-ws" "^7.0.1"
     array-flatten "^2.1.1"
