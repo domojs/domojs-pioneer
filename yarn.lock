@@ -53,8 +53,8 @@
     ws "^6.0.0"
 
 "@akala/server@^2.0.1-5", "@akala/server@^2.0.28", "@akala/server@^2.0.5":
-  version "2.1.21"
-  resolved "https://registry.yarnpkg.com/@akala/server/-/server-2.1.21.tgz#8cdc9f1dcff8b200e47487b1c6f6510568743bcc"
+  version "2.1.23"
+  resolved "https://registry.yarnpkg.com/@akala/server/-/server-2.1.23.tgz#e718d9491eb7c31d7703b9dbbd0db3096c32ff05"
   dependencies:
     "@akala/core" "^2.0.69"
     "@akala/json-rpc-ws" "^7.0.0"
