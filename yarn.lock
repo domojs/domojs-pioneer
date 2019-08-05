@@ -18,7 +18,7 @@
   optionalDependencies:
     showdown "^1.8.6"
 
-"@akala/core@^2.0.33", "@akala/core@^2.0.87":
+"@akala/core@^2.0.33", "@akala/core@^2.0.87", "@akala/core@^2.0.91":
   version "2.0.91"
   resolved "https://registry.yarnpkg.com/@akala/core/-/core-2.0.91.tgz#8c058b3124e9074abefa201ef31ab87f281aac40"
   dependencies:
@@ -44,15 +44,15 @@
     uuid "^3.0.0"
     ws "^3.0.0"
 
-"@akala/json-rpc-ws@^7.0.0", "@akala/json-rpc-ws@^7.0.1":
-  version "7.0.1"
-  resolved "https://registry.yarnpkg.com/@akala/json-rpc-ws/-/json-rpc-ws-7.0.1.tgz#a1fee836a04c66021ab6ce068eed058e003f57ea"
+"@akala/json-rpc-ws@^7.0.0", "@akala/json-rpc-ws@^7.0.1", "@akala/json-rpc-ws@^7.0.2":
+  version "7.0.2"
+  resolved "https://registry.yarnpkg.com/@akala/json-rpc-ws/-/json-rpc-ws-7.0.2.tgz#543138e11a2a40fda2deb221bbae32afed65405b"
   dependencies:
     debug "^3.1.0"
     uuid "^3.3.2"
     ws "^6.0.0"
 
-"@akala/server@^2.0.1-5", "@akala/server@^2.0.28", "@akala/server@^2.0.5":
+"@akala/server@^2.0.1-5", "@akala/server@^2.0.5":
   version "2.1.41"
   resolved "https://registry.yarnpkg.com/@akala/server/-/server-2.1.41.tgz#385631d008826c143fee3b71f2c071ec6528bb87"
   dependencies:
@@ -66,6 +66,24 @@
     send "^0.17.1"
     sequencify "0.0.7"
     source-map-support "^0.5.9"
+    underscore "^1.8.3"
+    ws "^7.1.1"
+    xml2js "^0.4.19"
+
+"@akala/server@^3.0.7":
+  version "3.0.7"
+  resolved "https://registry.yarnpkg.com/@akala/server/-/server-3.0.7.tgz#c410e669795b4217511e1df47e44a9d12c0c99ac"
+  dependencies:
+    "@akala/core" "^2.0.91"
+    "@akala/json-rpc-ws" "^7.0.2"
+    body-parser "^1.18.2"
+    express "^4.16.2"
+    on-finished "^2.3.0"
+    orchestrator "^0.3.8"
+    routington "^1.0.3"
+    send "^0.17.1"
+    sequencify "0.0.7"
+    source-map-support "^0.5.13"
     underscore "^1.8.3"
     ws "^7.1.1"
     xml2js "^0.4.19"
@@ -977,9 +995,9 @@ signal-exit@^3.0.0:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.2.tgz#b5fdc08f1287ea1178628e415e25132b73646c6d"
 
-source-map-support@^0.5.9:
-  version "0.5.10"
-  resolved "https://registry.yarnpkg.com/source-map-support/-/source-map-support-0.5.10.tgz#2214080bc9d51832511ee2bab96e3c2f9353120c"
+source-map-support@^0.5.13, source-map-support@^0.5.9:
+  version "0.5.13"
+  resolved "https://registry.yarnpkg.com/source-map-support/-/source-map-support-0.5.13.tgz#31b24a9c2e73c2de85066c0feb7d44767ed52932"
   dependencies:
     buffer-from "^1.0.0"
     source-map "^0.6.0"
