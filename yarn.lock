@@ -19,10 +19,10 @@
     showdown "^1.8.6"
 
 "@akala/core@^2.0.33", "@akala/core@^2.0.87":
-  version "2.0.105"
-  resolved "https://registry.yarnpkg.com/@akala/core/-/core-2.0.105.tgz#77d7721055d2d5f2ca1d2a860434fce4f43c4def"
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@akala/core/-/core-2.1.0.tgz#a890feb4f2a55c952fb60292c287d039e2a59a45"
   dependencies:
-    "@akala/json-rpc-ws" "^7.0.1"
+    "@akala/json-rpc-ws" "^8.0.2"
     array-flatten "^3.0.0"
     browser-process-hrtime "^1.0.0"
     debug "^4.1.1"
@@ -44,13 +44,21 @@
     uuid "^3.0.0"
     ws "^3.0.0"
 
-"@akala/json-rpc-ws@^7.0.0", "@akala/json-rpc-ws@^7.0.1":
+"@akala/json-rpc-ws@^7.0.0":
   version "7.0.1"
   resolved "https://registry.yarnpkg.com/@akala/json-rpc-ws/-/json-rpc-ws-7.0.1.tgz#a1fee836a04c66021ab6ce068eed058e003f57ea"
   dependencies:
     debug "^3.1.0"
     uuid "^3.3.2"
     ws "^6.0.0"
+
+"@akala/json-rpc-ws@^8.0.2":
+  version "8.0.2"
+  resolved "https://registry.yarnpkg.com/@akala/json-rpc-ws/-/json-rpc-ws-8.0.2.tgz#91215844315e799cd11a690b9a1fe2eff9b8b286"
+  dependencies:
+    debug "^4.1.1"
+    uuid "^3.4.0"
+    ws "^7.2.1"
 
 "@akala/server@^2.0.1-5", "@akala/server@^2.0.28", "@akala/server@^2.0.5":
   version "2.1.41"
@@ -1092,6 +1100,10 @@ utils-merge@1.0.1, utils-merge@^1.0.0:
 uuid@^3.0.0, uuid@^3.1.0, uuid@^3.2.1, uuid@^3.3.2:
   version "3.3.2"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.3.2.tgz#1b4af4955eb3077c501c23872fc6513811587131"
+
+uuid@^3.4.0:
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.4.0.tgz#b23e4358afa8a202fe7a100af1f5f883f02007ee"
 
 vary@~1.1.2:
   version "1.1.2"
