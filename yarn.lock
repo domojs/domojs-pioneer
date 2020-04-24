@@ -18,11 +18,28 @@
   optionalDependencies:
     showdown "^1.8.6"
 
-"@akala/core@^2.0.33", "@akala/core@^2.0.87":
+"@akala/core@^2.0.87":
   version "2.1.21"
   resolved "https://registry.yarnpkg.com/@akala/core/-/core-2.1.21.tgz#4fb7779cbeb51a6039b6a019a65c3bdf71502293"
   dependencies:
     "@akala/json-rpc-ws" "^9.0.16"
+    browser-process-hrtime "^1.0.0"
+    debug "^4.1.1"
+    es6-promise "^4.2.8"
+    isomorphic-fetch "^2.2.1"
+    mock-require "^3.0.3"
+    orchestrator "^0.3.8"
+    parseurl "^1.3.1"
+    path-to-regexp "^6.1.0"
+    routington "^1.0.3"
+    utils-merge "^1.0.0"
+    ws "^7.2.1"
+
+"@akala/core@^3.0.6":
+  version "3.0.6"
+  resolved "https://registry.yarnpkg.com/@akala/core/-/core-3.0.6.tgz#4e325bacf95f61339136a99191ff100bfd7c5600"
+  dependencies:
+    "@akala/json-rpc-ws" "^9.0.23"
     browser-process-hrtime "^1.0.0"
     debug "^4.1.1"
     es6-promise "^4.2.8"
@@ -51,9 +68,9 @@
     uuid "^3.3.2"
     ws "^6.0.0"
 
-"@akala/json-rpc-ws@^9.0.16":
-  version "9.0.16"
-  resolved "https://registry.yarnpkg.com/@akala/json-rpc-ws/-/json-rpc-ws-9.0.16.tgz#b1f22399a429a88374e988c9d43a037de5d886fd"
+"@akala/json-rpc-ws@^9.0.16", "@akala/json-rpc-ws@^9.0.23":
+  version "9.0.23"
+  resolved "https://registry.yarnpkg.com/@akala/json-rpc-ws/-/json-rpc-ws-9.0.23.tgz#0b5fe767ebdca19937125fec3b1065b8cbaca493"
   dependencies:
     debug "^4.1.1"
     uuid "^7.0.3"
